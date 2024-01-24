@@ -1,0 +1,30 @@
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+   .time{
+    p{
+        width: 50%;
+        font-size: 18px;
+        color: gray;
+    }
+   }
+   ul{
+    margin-top: 20px;
+    li{
+        color: gray;
+        margin-top: 8px;
+    }
+    li:hover{
+        color: red;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+   }
+   .copy{
+    h4{
+        color: gray;
+    }
+   }
+}

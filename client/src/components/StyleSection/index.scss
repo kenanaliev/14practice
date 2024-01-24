@@ -1,0 +1,45 @@
+#style{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(243, 236, 243);
+    .heading{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       margin-left: 50px;
+       h1{
+        font-size: 90px;
+        width: 60%;
+        color: rgb(11,28,57);
+       }
+       p{
+        font-size: 20px;
+        width: 70%;
+        color: rgb(11,28,57);
+        margin-left: 130px;
+        margin-top: 50px;
+       }
+       button{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(71, 70, 70);
+        border-style: none;
+        margin-top: 50px;
+        margin-right: 510px;
+        
+       }
+
+       button:hover{
+        background-color: red;
+        transition: 0.3s;
+       }
+
+    }
+    img{
+        height: 90vh;
+        margin-right: 400px;
+    }
+}

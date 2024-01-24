@@ -1,0 +1,36 @@
+#watch-of{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    .left-part{
+        img{
+            margin-right: 500px;
+            width: 450px;
+           }
+        margin-left: 400px;
+      
+    }
+    .right-part{
+        h2{
+            font-size: 60px;
+        }
+        p{
+            font-size: 18px;
+            width: 50%;
+            color: gray;
+            margin-top: 40px;
+        }
+        button{
+            width: 170px;
+            height: 50px;
+            background-color: red;
+            color: white;
+            border-style: none;
+            margin-top: 40px;
+        }
+        button:hover{
+            background-color: gray;
+            transition: 0.3s;
+        }
+    }
+}
